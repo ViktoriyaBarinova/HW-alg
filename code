@@ -19,9 +19,9 @@ public class Main {
         endTime = System.nanoTime();
         long arraysSortDuration = (endTime - startTime);
 
-        System.out.println("Bubble sort duration: " + bubbleSortDuration + " nanoseconds");
-        System.out.println("Quick sort duration: " + quickSortDuration + " nanoseconds");
-        System.out.println("Arrays.sort() duration: " + arraysSortDuration + " nanoseconds");
+        System.out.println("Сортировка пузырьком составляет " + bubbleSortDuration + " наносекунд");
+        System.out.println("Быстрая сортировка составляет " + quickSortDuration + " наносекунд");
+        System.out.println("Arrays.sort() составляет " + arraysSortDuration + " наносекунд");
     }
 
     public static void bubbleSort(int[] arr) {
